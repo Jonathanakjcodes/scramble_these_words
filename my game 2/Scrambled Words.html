@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <title>Scrambled Words</title>
+        <link rel="stylesheet" href="Scrambled Words.css">
+    </head>
+<body>
+  <nav>
+  
+    <h1>Scrambled Words</h1>
+    <div id="contact">
+      <a target="_blank" href="https://github.com/IAmAlexJohnson"><i class="fab fa-github"></i></a>
+      <a target="_blank" href="https://codepen.io/IAmAlexJohnson/"><i class="fab fa-codepen"></i></a>
+      <a target="_blank" href="https://twitter.com/IAmAlexJohnson"><i class="fab fa-twitter"></i></a>
+    </div>
+    <div id="rules">
+      <img src="img\logo.jpg" alt="Logo" style="width: 70px; height: 70px;">
+      <h1>Welcome to Scrambled Words</h1><br/><br/>
+      <p class="lead">Unscamble the words.</p>
+      <button id="play-btn">Let's Play</button>
+    </div>
+  </nav>
+
+  <div id="game-container" class="hidden">
+    <p>Level: <span id="level">1</span></p>
+    <p>Score: <span id="score">0</span></p>
+    <p>Attempts: <span id="attempts">0</span></p>
+    <p id="info"></p>
+
+    <div id="guess-container">
+      <p id="scrambled-word"></p>
+      
+      <input id="user-guess" type="text" placeholder="Enter your guess">
+      <button id="submit">Submit</button>
+      <button id="reset-btn">Reset</button>
+    </div>
+
+  </div>
+
+  <div id="copyright">
+    <p>Created by: <a target="_blank" href="https://twitter.com/IAmAlexEJohnson">Alex Johnson</a>, Edited by Akowonjo Jonathan Adeola Yaw</p>
+  </div>
+  <script src="Scrambled Words.js"></script>
+</body>
+
+</html>
